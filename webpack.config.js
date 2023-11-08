@@ -25,7 +25,7 @@ module.exports = {
     filename: 'index.js',
     publicPath: '/',
   },
-  mode: process.env.NODE_ENV,
+  mode: 'production',
   resolve: {
     extensions: ['.js', '.jsx', '.ts', '.tsx'],
   },
