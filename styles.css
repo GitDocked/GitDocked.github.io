@@ -1,3 +1,59 @@
 * {
   background-color: #7794ab;
 }
+* {
+  background-color: #1c262d;
+  color: white;
+}
+
+/* NAVBAR */
+.logo {
+  width: 25%;
+  height: 25%;
+}
+
+.nav-grid {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  width: 100%;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+}
+
+.active-link {
+  text-decoration: underline;
+  color: #1277db;
+  padding: 50px;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.link {
+  text-decoration: none;
+  color: #1277db;
+  padding: 50px;
+  font-size: larger;
+}
+
+/* FEATURES */
+.features-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+/* DEMO */
+
+
+/* TEAM */
+
+.team-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+}
